@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tes in SideBar should match to snapshot 1`] = `
+<aside
+  className="journal__sidebar animate__animated animate__fadeIn animate__fast"
+>
+  <div
+    className="journal__sidebar-navbar"
+  >
+    <h1
+      className="mt-3 journal__sidebar-title"
+    >
+      <i
+        className="far fa-moon"
+      />
+      <span>
+        gaston
+      </span>
+    </h1>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      logout
+    </button>
+  </div>
+  <div
+    className="journal__new-entry"
+    onClick={[Function]}
+  >
+    <i
+      className="far fa-calendar-plus fa-5x"
+    />
+    <p
+      className="mt-2"
+    >
+      new entry
+    </p>
+  </div>
+  <div
+    className="journal__entries"
+  />
+</aside>
+`;

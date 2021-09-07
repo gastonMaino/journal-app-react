@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in JournalEntry should match to snapshot 1`] = `
+<div
+  className="journal__entry"
+  onClick={[Function]}
+>
+  <div
+    className="journal__entry-picture"
+    style={
+      Object {
+        "backgroundImage": "url(https://algunlugar.com/foto.jpeg)",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  />
+  <div
+    className="journal__entry-body"
+  >
+    <p
+      className="journal__entry-title"
+    >
+      hi
+    </p>
+    <p
+      className="journal__entry-content"
+    >
+      world
+    </p>
+  </div>
+  <div
+    className="journal__entry-date-box"
+  >
+    <time>
+      Wednesday
+       
+      31st
+    </time>
+  </div>
+</div>
+`;

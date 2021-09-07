@@ -1,4 +1,3 @@
-import { startSaveNote } from "../actions/notes";
 import { types } from "../types/types";
 
 const initialState = {
